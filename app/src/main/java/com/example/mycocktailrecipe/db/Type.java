@@ -10,7 +10,7 @@ import org.litepal.crud.DataSupport;
  */
 public class Type extends DataSupport {
 
-    private int id;
+//    private int id;
     private String type;
 
     public void setType(String type) {
@@ -20,13 +20,13 @@ public class Type extends DataSupport {
     public String getType() {
         return type;
     }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
-    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//
+//    public int getId() {
+//        return id;
+//    }
 
 }
